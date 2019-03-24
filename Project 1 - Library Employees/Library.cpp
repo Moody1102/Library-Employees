@@ -5,11 +5,6 @@ Library::Library()
 {
 }
 
-
-Library::~Library()
-{
-}
-
 Library::add_book() 
 {
 }
