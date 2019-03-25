@@ -1,22 +1,21 @@
 #include "Library.h"
 
-
 Library::Library()
 {
 }
 
-void Library::add_book() 
+void Library::add_book(std::string title)
 {
 }
 
-void Library::add_employee()
+void Library::add_employee(std::string name)
 {
 }
 
-void Library::circulate_book()
+void Library::circulate_book(std::string title, Date date)
 {
 }
 
-void Library::pass_on()
+void Library::pass_on(std::string title, Date date)
 {
 }

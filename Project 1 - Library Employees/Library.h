@@ -1,19 +1,20 @@
 #include <queue>
 #include <list>
-#include <Books.h>
-#include <Employees>
+#include <string>
+#include "Books.h"
+#include "Employees.h"
 
 class Library
 {
 private:
-	std::list<int> archive;
-	std::list<int> circulation;
-	std::
+	std::list<Books> archive;
+	std::list<Books> circulation;
+	std::queue<Employees> employees;
 public:
 	Library();
-	void add_book();
-	void add_employee();
-	void circulate_book();
-	void pass_on();
+	void add_book(std::string title);
+	void add_employee(std::string name);
+	void circulate_book(std::string title, Date date);
+	void pass_on(std::string title, Date date);
 };
 
