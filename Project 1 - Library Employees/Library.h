@@ -1,10 +1,13 @@
 #include <queue>
+#include <list>
+#include <Books.h>
+#include <Employees>
 
 class Library
 {
 private:
-	std::queue<int> archive;
-	std::queue<int> circulation;
+	std::list<int> archive;
+	std::list<int> circulation;
 	std::
 public:
 	Library();

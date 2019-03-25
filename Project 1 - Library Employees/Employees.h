@@ -3,6 +3,5 @@ class Employees
 {
 public:
 	Employees();
-	~Employees();
 };
 
