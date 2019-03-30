@@ -1,7 +1,0 @@
-UML Diagram
-
-
-Algorithm Efficiency
-
-
-References
