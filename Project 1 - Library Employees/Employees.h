@@ -6,6 +6,6 @@ private:
 	int waitTime;
 	int retainTime;
 public:
-	Employees(std::string name);
+	Employees(std::string inputName);
 };
 
