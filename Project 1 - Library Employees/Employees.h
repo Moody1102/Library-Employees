@@ -2,10 +2,10 @@
 class Employees
 {
 private:
-	string name;
+	std::string name;
 	int waitTime;
 	int retainTime;
 public:
-	Employees();
+	Employees(std::string name);
 };
 
